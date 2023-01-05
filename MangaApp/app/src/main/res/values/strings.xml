@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MangaApp</string>
+    <string name="title">Manga name</string>
+    <string name="mangaka">Mangaka name</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="list">List</string>
+    <string name="with_cardview">With CardView</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="read">Read</string>
+    <string name="preview"> Free Preview</string>
+    <string name="nama">Nama: </string>
+    <string name="name"> Azka Zaki R</string>
+    <string name="alamat_email">Email: </string>
+    <string name="email">azkazaki@gmail.com</string>
+    <string name="major">Major: </string>
+    <string name="cs"> Computer Science</string>
+    <string name="genre">Genre: </string>
+</resources>

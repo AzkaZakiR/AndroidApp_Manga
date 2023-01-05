@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#133E4D">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/foto_profil"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/fotoprofil"/>
+
+        <TextView
+            android:id="@+id/my_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/foto_profil"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:text="@string/name" />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@id/my_name"
+            android:layout_below="@id/foto_profil"
+            android:text="@string/nama"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="10sp"/>
+
+        <TextView
+            android:id="@+id/alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@id/email"
+            android:layout_below="@id/nama"
+            android:layout_marginTop="20sp"
+            android:text="@string/alamat_email"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="10sp"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/my_name"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:text="@string/email"/>
+
+        <TextView
+            android:id="@+id/major"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alamat"
+            android:layout_toLeftOf="@id/cs"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:text="@string/major"/>
+
+        <TextView
+            android:id="@+id/cs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:text="@string/cs"/>
+    </RelativeLayout>
+
+</LinearLayout>
