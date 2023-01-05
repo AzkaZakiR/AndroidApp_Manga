@@ -94,10 +94,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent about = new Intent(MainActivity.this, About.class);
                 startActivity(about);
             //    title = "About Me and my life";
-            case R.id.action_profile:
-                Intent profile = new Intent(MainActivity.this, Profile.class);
-                startActivity(profile);
-                break;
         }
     }
 }
